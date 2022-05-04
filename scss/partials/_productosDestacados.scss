@@ -1,0 +1,34 @@
+@import "../variables/variables";
+
+.contenedorProductosDestacados{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productosDestacados{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $colorpagina;
+    padding: 1%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.fotoProductoInicio{
+    height: 19vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: white;
+    
+}
+
+.fotoProductoInicio:hover {
+    border: 2px solid yellow;
+}
+
+.carousel{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}

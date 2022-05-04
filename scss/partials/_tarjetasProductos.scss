@@ -1,0 +1,77 @@
+@import "../variables/variables";
+
+.listaProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cartaProducto {
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(33, 37, 41);
+    margin: 1%;
+    overflow: hidden;
+}
+
+.contenedorFoto {
+    width: 100%;
+    background-color: white;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.fotoProducto {
+    background-color: whitesmoke;
+    margin: 1%;
+    height: 17vw;
+}
+
+.descripcionProducto {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 1%;
+    width: 95%;
+    padding: 1%;
+    background-color: white;
+}
+
+.precio {
+    display: flex;
+    align-content: bottom;
+    display: flex;
+    justify-content: center;
+}
+
+.precioCantidadAñadir {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 95%;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+}
+
+.tituloCarta {
+    margin: 1%;
+    color: white;
+}
+
+.añadirCarrito {
+    margin: 0% 1% 0% 1%;
+}
+
+.cantidadProducto {
+    width: 40%;
+}
+
+.irACarrito{
+    margin-top: 3%;
+}

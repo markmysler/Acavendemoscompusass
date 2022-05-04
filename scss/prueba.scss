@@ -1,0 +1,34 @@
+@import "../scss/variables/variables";
+@import "../scss/partials/footer";
+@import "../scss/partials/header";
+@import "../scss/partials/aside";
+@import "../scss/partials/productosDestacados";
+@import "../scss/partials/tarjetasProductos";
+@import "../scss/partials/formularioContacto";
+@import "../scss/partials/soporteTecnico";
+@import "../scss/partials/carrito";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    resize: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url(../multimedia/fondo2.jpg);
+}
+
+.subtitulo{
+    text-align: center;
+    margin: 1%;
+    color: $colortextopagina;
+}
+h1{
+    text-align: center;
+    margin: 2%;
+    color: $colortextopagina;
+}

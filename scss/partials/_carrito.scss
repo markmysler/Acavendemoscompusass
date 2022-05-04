@@ -1,0 +1,260 @@
+@import "../variables/variables";
+
+.totalPagar{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    height: 5vw;
+    margin: 3vw;
+    align-items: center;
+    background-color: rgb(33, 37, 41);
+    padding: 3.5vw;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.total{
+border: 2px solid black;
+border-radius: 10px;
+background-color: white;
+padding: 1.2%;
+font-size: 1.5vw;
+}
+
+.irAPagar{
+margin: 1%;
+font-size: 1.2vw;
+}
+
+.productosEnCarrito {
+    display: grid;
+    width: 100vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: rgb(33, 37, 41);
+    justify-content: center;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(5, 70px);
+    grid-template-areas:
+        "titulo1 titulo2 titulo3 titulo4"
+        "producto1 cantidad1 descripcion1 precio1"
+        "producto2 cantidad2 descripcion2 precio2"
+        "producto3 cantidad3 descripcion3 precio3"
+        "producto4 cantidad4 descripcion4 precio4";
+}
+
+.producto1 {
+    grid-area: producto1;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.producto2 {
+    grid-area: producto2;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.producto3 {
+    grid-area: producto3;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.producto4 {
+    grid-area: producto4;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cantidad1 {
+    grid-area: cantidad1;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad2 {
+    grid-area: cantidad2;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad3 {
+    grid-area: cantidad3;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad4 {
+    grid-area: cantidad4;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precio1 {
+    grid-area: precio1;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precio2 {
+    grid-area: precio2;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.precio3 {
+    grid-area: precio3;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precio4 {
+    grid-area: precio4;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion1 {
+    grid-area: descripcion1;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.descripcion2 {
+    grid-area: descripcion2;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.descripcion3 {
+    grid-area: descripcion3;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.descripcion4 {
+    grid-area: descripcion4;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripciones{
+    font-size: 0.8vw;
+}
+
+.titulo1 {
+    grid-area: titulo1;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.titulo2 {
+    grid-area: titulo2;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.titulo3 {
+    grid-area: titulo3;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.titulo4 {
+    grid-area: titulo4;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

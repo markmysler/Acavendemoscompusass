@@ -1,0 +1,439 @@
+@charset "UTF-8";
+footer {
+  background-color: #212529;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid black; }
+  footer .redesSociales {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end; }
+  footer .copyright {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0;
+    font-size: x-small; }
+
+.fa {
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 100%;
+  border: 1px solid black; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: large;
+  padding: 20px 24px 20px 24px; }
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  font-size: large; }
+
+.fa-youtube {
+  background: red;
+  color: white;
+  font-size: large; }
+
+.fa-instagram {
+  background-color: darkblue;
+  color: white;
+  font-size: large; }
+
+header {
+  width: 100%; }
+
+aside {
+  align-self: center;
+  margin: 2%; }
+  aside .publicidad {
+    border: 3px solid black;
+    border-radius: 10px; }
+
+.contenedorProductosDestacados {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.productosDestacados {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #212529;
+  padding: 1%;
+  border: 3px solid black;
+  border-radius: 10px; }
+
+.fotoProductoInicio {
+  height: 19vw;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: white; }
+
+.fotoProductoInicio:hover {
+  border: 2px solid yellow; }
+
+.carousel {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black; }
+
+.listaProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.cartaProducto {
+  border: 4px solid black;
+  border-radius: 10px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212529;
+  margin: 1%;
+  overflow: hidden; }
+
+.contenedorFoto {
+  width: 100%;
+  background-color: white;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  display: flex;
+  justify-content: center; }
+
+.fotoProducto {
+  background-color: whitesmoke;
+  margin: 1%;
+  height: 17vw; }
+
+.descripcionProducto {
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 1%;
+  width: 95%;
+  padding: 1%;
+  background-color: white; }
+
+.precio {
+  display: flex;
+  align-content: bottom;
+  display: flex;
+  justify-content: center; }
+
+.precioCantidadAñadir {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 95%;
+  text-align: center;
+  padding: 1%;
+  margin: 1%;
+  background-color: white; }
+
+.tituloCarta {
+  margin: 1%;
+  color: white; }
+
+.añadirCarrito {
+  margin: 0% 1% 0% 1%; }
+
+.cantidadProducto {
+  width: 40%; }
+
+.irACarrito {
+  margin-top: 3%; }
+
+.formulario {
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 1%;
+  background-color: white;
+  width: 80%; }
+
+.form-check-label {
+  flex-wrap: nowrap; }
+
+.formularioContacto {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.formulario2 {
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 1%;
+  background-color: white; }
+
+.fotoConsulta {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 1%; }
+
+#consultaFoto {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center; }
+
+.totalPagar {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  height: 5vw;
+  margin: 3vw;
+  align-items: center;
+  background-color: #212529;
+  padding: 3.5vw;
+  border: 3px solid black;
+  border-radius: 10px; }
+
+.total {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1.2%;
+  font-size: 1.5vw; }
+
+.irAPagar {
+  margin: 1%;
+  font-size: 1.2vw; }
+
+.productosEnCarrito {
+  display: grid;
+  width: 100vw;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 2%;
+  background-color: #212529;
+  justify-content: center;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: repeat(5, 70px);
+  grid-template-areas: "titulo1 titulo2 titulo3 titulo4" "producto1 cantidad1 descripcion1 precio1" "producto2 cantidad2 descripcion2 precio2" "producto3 cantidad3 descripcion3 precio3" "producto4 cantidad4 descripcion4 precio4"; }
+
+.producto1 {
+  grid-area: producto1;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.producto2 {
+  grid-area: producto2;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.producto3 {
+  grid-area: producto3;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.producto4 {
+  grid-area: producto4;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.cantidad1 {
+  grid-area: cantidad1;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.cantidad2 {
+  grid-area: cantidad2;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.cantidad3 {
+  grid-area: cantidad3;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.cantidad4 {
+  grid-area: cantidad4;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.precio1 {
+  grid-area: precio1;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.precio2 {
+  grid-area: precio2;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.precio3 {
+  grid-area: precio3;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.precio4 {
+  grid-area: precio4;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.descripcion1 {
+  grid-area: descripcion1;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll; }
+
+.descripcion2 {
+  grid-area: descripcion2;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll; }
+
+.descripcion3 {
+  grid-area: descripcion3;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll; }
+
+.descripcion4 {
+  grid-area: descripcion4;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.descripciones {
+  font-size: 0.8vw; }
+
+.titulo1 {
+  grid-area: titulo1;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold; }
+
+.titulo2 {
+  grid-area: titulo2;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold; }
+
+.titulo3 {
+  grid-area: titulo3;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold; }
+
+.titulo4 {
+  grid-area: titulo4;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  resize: none; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url(../multimedia/fondo2.jpg); }
+
+.subtitulo {
+  text-align: center;
+  margin: 1%;
+  color: white; }
+
+h1 {
+  text-align: center;
+  margin: 2%;
+  color: white; }

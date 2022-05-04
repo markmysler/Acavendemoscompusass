@@ -1,0 +1,59 @@
+@import "../variables/variables";
+
+footer{
+    background-color: $colorpagina;
+    color: $colortextopagina;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    .redesSociales {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+
+    .copyright{
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 0;
+        font-size: x-small;
+        
+    }
+}
+
+.fa {
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: large;
+    padding: 20px 24px 20px 24px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: large;
+}
+
+.fa-youtube {
+    background: red;
+    color: white;
+    font-size: large;
+}
+
+.fa-instagram {
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+}
