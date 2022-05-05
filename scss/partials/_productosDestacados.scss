@@ -12,13 +12,13 @@
     justify-content: space-between;
     background-color: $colorpagina;
     padding: 1%;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: $bordeNegro;
+    border-radius: $borderRadius;
 }
 .fotoProductoInicio{
     height: 19vw;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: $bordeNegro;
+    border-radius: $borderRadius;
     padding: 1%;
     background-color: white;
     
@@ -29,6 +29,6 @@
 }
 
 .carousel{
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: $bordeNegro;
+    border-bottom: $bordeNegro;
 }

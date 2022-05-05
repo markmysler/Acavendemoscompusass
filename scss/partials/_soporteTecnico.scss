@@ -1,15 +1,15 @@
 @import "../variables/variables";
 
 .formulario2 {
-    border: 4px solid black;
-    border-radius: 10px;
+    border: $bordeNegro4px;
+    border-radius: $borderRadius;
     padding: 2%;
     margin: 1%;
     background-color: white;
 }
 .fotoConsulta {
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: $borderRadius;
     margin-bottom: 1%;
 }
 #consultaFoto {

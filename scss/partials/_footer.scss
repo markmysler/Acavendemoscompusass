@@ -6,7 +6,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-top: 3px solid black;
+    border-top: $bordeNegro;
     .redesSociales {
         display: flex;
         flex-wrap: nowrap;
