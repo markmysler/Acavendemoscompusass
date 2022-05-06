@@ -46,15 +46,52 @@ footer {
   color: white;
   font-size: large; }
 
+@media screen and (max-width: 468px) {
+  .fa {
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 100%;
+    border: 1px solid black; }
+  .fa:hover {
+    opacity: 0.7; }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: small;
+    padding: 15px 18px 15px 18px; }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: small; }
+  .fa-youtube {
+    background: red;
+    color: white;
+    font-size: small; }
+  .fa-instagram {
+    background-color: darkblue;
+    color: white;
+    font-size: small; }
+  footer {
+    display: flex; } }
+
+@media only screen and (max-width: 335px) {
+  footer p {
+    font-size: xx-small; } }
+
 header {
   width: 100%; }
 
 aside {
   align-self: center;
-  margin: 2%; }
+  margin: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
   aside .publicidad {
     border: 3px solid black;
-    border-radius: 10px; }
+    border-radius: 10px;
+    width: 80%;
+    height: 30%; }
 
 .contenedorProductosDestacados {
   width: 100%;
@@ -84,6 +121,29 @@ aside {
 .carousel {
   border-top: 3px solid black;
   border-bottom: 3px solid black; }
+
+.padreIrACarrito {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.irACarrito {
+  width: 70vw; }
+
+@media only screen and (max-width: 740px) {
+  .productosDestacados {
+    display: flex;
+    flex-direction: column;
+    padding: 2%; }
+  .productosDestacados {
+    width: 80%; }
+  .fotoProductoInicio {
+    height: auto;
+    margin: 1% 0% 1% 0%; } }
+
+@media only screen and (max-width: 500px) {
+  .irACarrito {
+    width: 52vw; } }
 
 .listaProductos {
   display: flex;
@@ -149,6 +209,24 @@ aside {
 
 .irACarrito {
   margin-top: 3%; }
+
+@media only screen and (max-width: 900px) {
+  .cartaProducto {
+    width: 40%; } }
+
+@media screen and (max-width: 672px) and (min-width: 468px) {
+  .cartaProducto {
+    width: 70%;
+    height: fit-content;
+    justify-content: space-evenly; } }
+
+@media screen and (max-width: 468px) {
+  .cartaProducto {
+    width: 85%; }
+  .listaProductos h4 {
+    font-size: medium; }
+  .fotoProducto {
+    height: 35vw; } }
 
 .formulario {
   border: 4px solid black;
@@ -414,6 +492,20 @@ aside {
   align-items: center;
   font-weight: bold; }
 
+.subtitulo {
+  text-align: center;
+  margin: 1%;
+  color: white; }
+
+h1 {
+  text-align: center;
+  margin: 2%;
+  color: white; }
+
+@media only screen and (max-width: 335px) {
+  h1 {
+    font-size: large; } }
+
 * {
   padding: 0;
   margin: 0;
@@ -427,13 +519,3 @@ body {
   width: 100vw;
   overflow-x: hidden;
   background-image: url(../multimedia/fondo2.jpg); }
-
-.subtitulo {
-  text-align: center;
-  margin: 1%;
-  color: white; }
-
-h1 {
-  text-align: center;
-  margin: 2%;
-  color: white; }

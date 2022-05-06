@@ -7,6 +7,7 @@
 @import "../scss/partials/formularioContacto";
 @import "../scss/partials/soporteTecnico";
 @import "../scss/partials/carrito";
+@import "../scss/partials/fontSize";
 * {
     padding: 0;
     margin: 0;
@@ -20,15 +21,4 @@ body {
     width: 100vw;
     overflow-x: hidden;
     background-image: url(../multimedia/fondo2.jpg);
-}
-
-.subtitulo{
-    text-align: center;
-    margin: 1%;
-    color: $colortextopagina;
-}
-h1{
-    text-align: center;
-    margin: 2%;
-    color: $colortextopagina;
 }

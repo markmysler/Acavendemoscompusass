@@ -32,3 +32,30 @@
     border-top: $bordeNegro;
     border-bottom: $bordeNegro;
 }
+.padreIrACarrito{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.irACarrito{
+    width: 70vw;
+}
+@media only screen and (max-width: 740px){
+    .productosDestacados{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+    .productosDestacados{
+        width: 80%;
+    }
+    .fotoProductoInicio{
+        height: auto;
+        margin: 1% 0% 1% 0%;
+    }
+}
+@media only screen and (max-width: 500px){
+.irACarrito{
+    width: 52vw;
+}
+}

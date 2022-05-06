@@ -57,3 +57,51 @@ footer{
     color: white;
     font-size: large;
 }
+
+@media screen and (max-width: 468px){
+    .fa {
+        padding: 15px;
+        text-decoration: none;
+        border-radius: 100%;
+        border: 1px solid black;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        font-size: small;
+        padding: 15px 18px 15px 18px;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        font-size: small;
+    }
+    
+    .fa-youtube {
+        background: red;
+        color: white;
+        font-size: small;
+    }
+    
+    .fa-instagram {
+        background-color: darkblue;
+        color: white;
+        font-size: small;
+    }
+    footer{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 335px){
+    footer{
+        p{
+            font-size: xx-small;
+        }
+    }
+}

@@ -75,3 +75,29 @@
 .irACarrito{
     margin-top: 3%;
 }
+
+@media only screen and (max-width: 900px){
+    .cartaProducto{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 672px) and (min-width:468px) {
+    .cartaProducto{
+        width: 70%;
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 468px) {
+    .cartaProducto{
+        width: 85%;
+    }
+    .listaProductos{
+        h4{
+            font-size: medium;
+        }
+    }
+    .fotoProducto{
+        height: 35vw;
+    }
+    }

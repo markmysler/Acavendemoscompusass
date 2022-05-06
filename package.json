@@ -14,5 +14,13 @@
     "nodemon": "^2.0.16"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmysler/Acavendemoscompusass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markmysler/Acavendemoscompusass/issues"
+  },
+  "homepage": "https://github.com/markmysler/Acavendemoscompusass#readme",
   "description": ""
 }
