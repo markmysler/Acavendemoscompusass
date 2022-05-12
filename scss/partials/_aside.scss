@@ -1,15 +1,30 @@
 @import "../variables/variables";
+@import "../sass2/extend";
 
 aside{
     align-self:  center;
     margin: 2%;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @extend .flexCenter;
     .publicidad{
         border: $bordeNegro;
         border-radius: $borderRadius;
-        width: 80%;
-        height: 30%;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    aside{
+        .publicidad{
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    aside{
+        .publicidad{
+            height: 20%;
+        }
     }
 }

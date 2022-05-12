@@ -1,18 +1,16 @@
 @import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
 
 .listaProductos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include wrap;
 }
 
 .cartaProducto {
     border: $bordeNegro4px;
     border-radius: $borderRadius;
     width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include centrar-columna3;
     background-color: $colorpagina;
     margin: 1%;
     overflow: hidden;
@@ -23,8 +21,7 @@
     background-color: white;
     border-top: $bordeNegro4px;
     border-bottom: $bordeNegro4px;
-    display: flex;
-    justify-content: center;
+    @extend .flexCenter;
 }
 
 .fotoProducto {
@@ -40,13 +37,13 @@
     width: 95%;
     padding: 1%;
     background-color: white;
+    h5{
+        text-align: center;
+    }
 }
 
 .precio {
-    display: flex;
-    align-content: bottom;
-    display: flex;
-    justify-content: center;
+    @include centrar-bottom;
 }
 
 .precioCantidadAñadir {

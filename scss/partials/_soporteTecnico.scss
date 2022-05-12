@@ -1,4 +1,6 @@
 @import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
 
 .formulario2 {
     border: $bordeNegro4px;
@@ -15,6 +17,5 @@
 #consultaFoto {
     width: 100%;
     height: 20%;
-    display: flex;
-    justify-content: center;
+    @extend .flexCenter;
 }

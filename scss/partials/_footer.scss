@@ -1,4 +1,6 @@
 @import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
 
 footer{
     background-color: $colorpagina;
@@ -8,19 +10,21 @@ footer{
     justify-content: space-between;
     border-top: $bordeNegro;
     .redesSociales {
-        display: flex;
+        @include end;
         flex-wrap: nowrap;
-        justify-content: flex-end;
     }
 
     .copyright{
-        display: flex;
-        align-items: flex-start;
+        @include start;
         margin-bottom: 0;
         font-size: x-small;
-        
+        p{
+            margin-bottom: 0px;
+            align-self: flex-end;
+        }
     }
 }
+
 
 .fa {
     padding: 20px;

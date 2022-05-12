@@ -1,4 +1,6 @@
 @import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
 
 .totalPagar{
     display: flex;
@@ -46,215 +48,103 @@ font-size: 1.2vw;
 
 .producto1 {
     grid-area: producto1;
-    background-color: white;
-    border: $bordeNegro2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .producto2 {
     grid-area: producto2;
-    background-color: white;
-    border: $bordeNegro2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .producto3 {
     grid-area: producto3;
-    background-color: white;
-    border: $bordeNegro2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .producto4 {
     grid-area: producto4;
-    background-color: white;
-    border: $bordeNegro2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+}
+
+.productos{
+    @extend .tablaEstilo;
 }
 
 .cantidad1 {
     grid-area: cantidad1;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cantidad2 {
     grid-area: cantidad2;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cantidad3 {
     grid-area: cantidad3;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cantidad4 {
     grid-area: cantidad4;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.cantidades{
+    @extend .tablaEstilo;
 }
 
 .precio1 {
     grid-area: precio1;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .precio2 {
     grid-area: precio2;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .precio3 {
     grid-area: precio3;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .precio4 {
     grid-area: precio4;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.precios{
+    @extend .tablaEstilo;
 }
 
 .descripcion1 {
     grid-area: descripcion1;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: scroll;
 }
 
 .descripcion2 {
     grid-area: descripcion2;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: scroll;
 }
 
 .descripcion3 {
     grid-area: descripcion3;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: scroll;
 }
 
 .descripcion4 {
     grid-area: descripcion4;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    overflow: scroll;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .descripciones{
+    @extend .tablaEstilo;
+    overflow: scroll;
     font-size: 0.8vw;
 }
 
 .titulo1 {
     grid-area: titulo1;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    font-size: x-large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
 }
 
 .titulo2 {
     grid-area: titulo2;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    font-size: x-large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
 }
 
 .titulo3 {
     grid-area: titulo3;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
-    font-size: x-large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
 }
 
 .titulo4 {
     grid-area: titulo4;
-    background-color: white;
-    border: $bordeNegro2px;
-    text-align: center;
+}
+
+.titulos{
+    @extend .tablaEstilo;
     font-size: x-large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: bold;
 }

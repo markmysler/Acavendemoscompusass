@@ -1,0 +1,13 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+}
+.tablaEstilo{
+    background-color: white;
+    border: $bordeNegro2px;
+    @include centrar3;
+    text-align: center;
+}
