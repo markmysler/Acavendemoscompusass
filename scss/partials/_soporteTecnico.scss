@@ -19,3 +19,9 @@
     height: 20%;
     @extend .flexCenter;
 }
+
+@media screen and (max-width: 1000px){
+    .fotoConsulta{
+        height: 38vw;
+    }
+}

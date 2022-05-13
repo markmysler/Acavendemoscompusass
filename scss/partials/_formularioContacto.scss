@@ -19,3 +19,19 @@
     width: 100%;
     @extend .flexCenter;
 }
+
+@media screen and (max-width: 468px){
+    .formulario{
+        width: 95%;
+        font-size: small;
+    }
+    .form-control{
+        font-size: small;
+    }
+    .input-group-text{
+        font-size: small;
+    }
+    .form-select{
+        font-size: small;
+    }
+}

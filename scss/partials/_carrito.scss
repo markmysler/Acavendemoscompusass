@@ -15,6 +15,10 @@
     border-radius: $borderRadius;
 }
 
+.padreTotalPagar{
+    display: flex;
+    justify-content: center;
+}
 .total{
 border: $bordeNegro2px;
 border-radius: $borderRadius;
@@ -147,4 +151,57 @@ font-size: 1.2vw;
     @extend .tablaEstilo;
     font-size: x-large;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 740px){
+    .titulos{
+        font-size: 3vw;
+    }
+    .descripciones{
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 672px) and (min-width:468px){
+    .totalPagar{
+        height: 20%;
+    }
+    .irAPagar{
+        width: 25%;
+        font-size: 1.7vw;
+    }
+}
+
+@media screen and (max-width: 468px){
+    .totalPagar{
+        height: 35%;
+    }
+    .irAPagar{
+        width: 30%;
+        font-size: 2vw;
+    }
+    .total{
+        text-align: center;
+    }
+    .productosEnCarrito{
+        margin: 1%;
+    }
+    .descripciones{
+        font-size: 1.5vw;
+    }
+    .productos{
+        font-size: small;
+    }
+    .precios{
+        font-size: small;
+    }
+    .titulos{
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .titulos{
+        font-size: x-small;
+    }
 }
