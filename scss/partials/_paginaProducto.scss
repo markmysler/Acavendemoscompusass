@@ -1,0 +1,99 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+.padreCartaProductoPagina{
+    width: 100%;
+    @extend .flexCenter; 
+}
+.cartaProductoPagina {
+    border: $bordeNegro4px;
+    border-radius: $borderRadius;
+    width: 85%;
+    @include centrar-columna3;
+    background-color: $colorpagina;
+    margin: 2% 1% 2% 1%;
+    overflow: hidden;
+}
+
+.contenedorFoto {
+    width: 100%;
+    background-color: white;
+    border-top: $bordeNegro4px;
+    border-bottom: $bordeNegro4px;
+    @extend .flexCenter;
+}
+
+.fotoProductoPagina {
+    background-color: whitesmoke;
+    margin: 1%;
+    height: 40vw;
+}
+
+.descripcionProducto {
+    border: $bordeNegro;
+    border-radius: $borderRadius;
+    margin: 1%;
+    width: 95%;
+    padding: 1%;
+    background-color: white;
+    h5{
+        text-align: center;
+    }
+}
+
+.precio {
+    @include centrar-bottom;
+}
+
+.precioCantidadAñadir {
+    border: $bordeNegro;
+    border-radius: $borderRadius;
+    width: 95%;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+}
+
+.tituloCarta {
+    margin: 1%;
+    color: white;
+}
+
+.añadirCarrito {
+    margin: 0% 1% 0% 1%;
+}
+
+.cantidadProducto {
+    width: 40%;
+}
+
+.irACarrito{
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 900px){
+    .cartaProducto{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 672px) and (min-width:468px) {
+    .cartaProducto{
+        width: 70%;
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 468px) {
+    .cartaProducto{
+        width: 85%;
+    }
+    .listaProductos{
+        h4{
+            font-size: medium;
+        }
+    }
+    .fotoProducto{
+        height: 35vw;
+    }
+    }

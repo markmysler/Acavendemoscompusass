@@ -5,15 +5,20 @@
 .contenedorProductosDestacados{
     width: 100%;
     @include centrar-columna3;
+    border: $bordeNegro;
+    border-radius: $borderRadius;
+    background-color: $colorpagina;
+    h2{
+        margin: 1% 0% 1% 0%;
+    }
+    padding-bottom: 1%;
 }
 .productosDestacados{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    background-color: $colorpagina;
-    padding: 1%;
-    border: $bordeNegro;
-    border-radius: $borderRadius;
+    justify-content: space-around;
+
+
 }
 .fotoProductoInicio{
     height: 19vw;
@@ -31,6 +36,10 @@
 .carousel{
     border-top: $bordeNegro;
     border-bottom: $bordeNegro;
+}
+.novedades{
+    background-color: $colorpagina;
+    border-top: $bordeNegro;
 }
 .padreIrACarrito{
 width: 100%;

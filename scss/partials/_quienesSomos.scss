@@ -1,0 +1,30 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+
+.padreQuienesSomos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quienesSomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    border: $bordeNegro;
+    border-radius: $borderRadius;
+    margin: 2%;
+    background-color: $colorpagina;
+    padding: 1%;
+    text-align: center;
+
+    p {
+        color: $colortextopagina;
+    }
+
+    h2 {
+        color: $colortextopagina;
+    }
+}
