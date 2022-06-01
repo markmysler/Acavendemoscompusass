@@ -12,6 +12,7 @@
         margin: 1% 0% 1% 0%;
     }
     padding-bottom: 1%;
+    box-shadow: 10px $colorpagina;
 }
 .productosDestacados{
     width: 100%;
@@ -26,7 +27,7 @@
     border-radius: $borderRadius;
     padding: 1%;
     background-color: white;
-    
+    box-shadow: 30px white;
 }
 
 .fotoProductoInicio:hover {

@@ -12,13 +12,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     border: $bordeNegro;
     border-radius: $borderRadius;
-    margin: 2%;
     background-color: $colorpagina;
+    margin: 2% 0% 2% 0%;
     padding: 1%;
     text-align: center;
+    box-shadow: 10px $colorpagina;
 
     p {
         color: $colortextopagina;
