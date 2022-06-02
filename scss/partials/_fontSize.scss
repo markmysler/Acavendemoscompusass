@@ -5,6 +5,22 @@
     margin: 1%;
     color: $colortextopagina;
 }
+.padreSub{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.subtitulo2{
+    text-align: center;
+    margin: 1%;
+    color: $colortextopagina;
+    background-color: $colorpagina;
+    width: fit-content;
+    border: $bordeNegro;
+    border-radius: $borderRadius;
+    padding: 0.5% 3% 0.5% 3%;
+}
+
 .titulo{
 display: flex;
 justify-content: center;

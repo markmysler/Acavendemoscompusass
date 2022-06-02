@@ -156,7 +156,7 @@ aside {
   justify-content: space-around; }
 
 .fotoProductoInicio {
-  height: 19vw;
+  height: 18vw;
   border: 3px solid black;
   border-radius: 10px;
   padding: 1%;
@@ -458,7 +458,7 @@ aside {
   grid-area: descripcion4; }
 
 .descripciones {
-  overflow: scroll;
+  overflow: hidden;
   font-size: 0.8vw; }
 
 .titulo1 {
@@ -517,6 +517,21 @@ aside {
   text-align: center;
   margin: 1%;
   color: white; }
+
+.padreSub {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.subtitulo2 {
+  text-align: center;
+  margin: 1%;
+  color: white;
+  background-color: #212529;
+  width: fit-content;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 0.5% 3% 0.5% 3%; }
 
 .titulo {
   display: flex;
