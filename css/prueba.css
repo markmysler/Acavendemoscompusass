@@ -96,6 +96,16 @@ footer {
 header {
   width: 100%; }
 
+.logoHeader {
+  height: 3vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px black; }
+
+@media only screen and (max-width: 900px) {
+  .logoHeader {
+    height: 5vw; } }
+
 .flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
@@ -242,7 +252,8 @@ aside {
   padding: 1%;
   background-color: white; }
   .descripcionProducto h5 {
-    text-align: center; }
+    text-align: center;
+    font-family: "Kdam Thmor Pro", sans-serif; }
 
 .precio {
   display: flex;
@@ -260,7 +271,8 @@ aside {
 
 .tituloCarta {
   margin: 1%;
-  color: white; }
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif; }
 
 .añadirCarrito {
   margin: 0% 1% 0% 1%; }
@@ -475,7 +487,8 @@ aside {
 
 .titulos {
   font-size: x-large;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: "Kdam Thmor Pro", sans-serif; }
 
 @media only screen and (max-width: 740px) {
   .titulos {
@@ -516,7 +529,8 @@ aside {
 .subtitulo {
   text-align: center;
   margin: 1%;
-  color: white; }
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif; }
 
 .padreSub {
   width: 100%;
@@ -531,7 +545,8 @@ aside {
   width: fit-content;
   border: 3px solid black;
   border-radius: 10px;
-  padding: 0.5% 3% 0.5% 3%; }
+  padding: 0.5% 3% 0.5% 3%;
+  font-family: "Kdam Thmor Pro", sans-serif; }
 
 .titulo {
   display: flex;
@@ -546,7 +561,11 @@ h1 {
   margin: 2% 0% 2% 0%;
   width: fit-content;
   border-radius: 10px;
-  border: 3px solid black; }
+  border: 3px solid black;
+  font-family: "Kdam Thmor Pro", sans-serif; }
+
+h4 {
+  font-family: "Kdam Thmor Pro", sans-serif; }
 
 @media only screen and (max-width: 335px) {
   h1 {
@@ -585,7 +604,8 @@ h1 {
   .quienesSomos p {
     color: white; }
   .quienesSomos h2 {
-    color: white; }
+    color: white;
+    font-family: "Kdam Thmor Pro", sans-serif; }
 
 .flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;

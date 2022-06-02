@@ -4,6 +4,7 @@
     text-align: center;
     margin: 1%;
     color: $colortextopagina;
+    font-family: "Kdam Thmor Pro", sans-serif;
 }
 .padreSub{
     width: 100%;
@@ -19,6 +20,7 @@
     border: $bordeNegro;
     border-radius: $borderRadius;
     padding: 0.5% 3% 0.5% 3%;
+    font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 .titulo{
@@ -36,6 +38,11 @@ h1{
     width: fit-content;
     border-radius: 10px;
     border: $bordeNegro;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+h4{
+    font-family: "Kdam Thmor Pro", sans-serif;
 }
 
 @media only screen and (max-width: 335px){

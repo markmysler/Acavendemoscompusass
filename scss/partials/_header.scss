@@ -2,3 +2,15 @@
 header{
     width: 100%;
 }
+.logoHeader{
+    height: 3vw;
+    border: $bordeNegro2px;
+    border-radius: $borderRadius;
+    box-shadow: 10px black;
+}
+
+@media only screen and (max-width: 900px){
+    .logoHeader{
+        height: 5vw;
+    }
+}
