@@ -29,7 +29,7 @@ font-size: 1.5vw;
 
 .irAPagar{
 margin: 1%;
-font-size: 1.2vw;
+font-size: 1.5vw;
 }
 
 .productosEnCarrito {
@@ -127,8 +127,13 @@ font-size: 1.2vw;
 
 .descripciones{
     @extend .tablaEstilo;
-    overflow: hidden;
-    font-size: 0.8vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 1vw;
+    p{
+        margin-top: 2%;
+    }
+
 }
 
 .titulo1 {
@@ -159,7 +164,7 @@ font-size: 1.2vw;
         font-size: 3vw;
     }
     .descripciones{
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 }
 
@@ -169,7 +174,7 @@ font-size: 1.2vw;
     }
     .irAPagar{
         width: 25%;
-        font-size: 1.7vw;
+        font-size: 3vw;
     }
 }
 
@@ -179,16 +184,17 @@ font-size: 1.2vw;
     }
     .irAPagar{
         width: 30%;
-        font-size: 2vw;
+        font-size: 3.5vw;
     }
     .total{
         text-align: center;
+        width: fit-content;
     }
     .productosEnCarrito{
         margin: 1%;
     }
     .descripciones{
-        font-size: 1.5vw;
+        font-size: 2.7vw;
     }
     .productos{
         font-size: small;

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 
@@ -106,7 +106,7 @@ header {
   .logoHeader {
     height: 5vw; } }
 
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 
@@ -135,7 +135,7 @@ aside {
   aside .publicidad {
     height: 20%; } }
 
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 
@@ -167,14 +167,19 @@ aside {
 
 .fotoProductoInicio {
   height: 18vw;
-  border: 3px solid black;
-  border-radius: 10px;
   padding: 1%;
   background-color: white;
   box-shadow: 30px white; }
 
-.fotoProductoInicio:hover {
-  border: 2px solid yellow; }
+.contenedorFotoInicio {
+  width: 100%;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px; }
+
+.contenedorFotoInicio:hover {
+  border: 2px solid yellow;
+  border-radius: 10px; }
 
 .carousel {
   border-top: 3px solid black;
@@ -198,14 +203,14 @@ aside {
   .productosDestacados {
     width: 80%; }
   .fotoProductoInicio {
-    height: auto;
+    height: 40vw;
     margin: 1% 0% 1% 0%; } }
 
 @media only screen and (max-width: 500px) {
   .irACarrito {
     width: 52vw; } }
 
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 
@@ -301,7 +306,7 @@ aside {
   .fotoProducto {
     height: 35vw; } }
 
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 
@@ -338,7 +343,7 @@ aside {
   .form-select {
     font-size: small; } }
 
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 
@@ -370,7 +375,7 @@ aside {
   .fotoConsulta {
     height: 38vw; } }
 
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 
@@ -407,7 +412,7 @@ aside {
 
 .irAPagar {
   margin: 1%;
-  font-size: 1.2vw; }
+  font-size: 1.5vw; }
 
 .productosEnCarrito {
   display: grid;
@@ -470,8 +475,11 @@ aside {
   grid-area: descripcion4; }
 
 .descripciones {
-  overflow: hidden;
-  font-size: 0.8vw; }
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-size: 1vw; }
+  .descripciones p {
+    margin-top: 2%; }
 
 .titulo1 {
   grid-area: titulo1; }
@@ -494,27 +502,28 @@ aside {
   .titulos {
     font-size: 3vw; }
   .descripciones {
-    font-size: 1.5vw; } }
+    font-size: 1.8vw; } }
 
 @media screen and (max-width: 672px) and (min-width: 468px) {
   .totalPagar {
     height: 20%; }
   .irAPagar {
     width: 25%;
-    font-size: 1.7vw; } }
+    font-size: 3vw; } }
 
 @media screen and (max-width: 468px) {
   .totalPagar {
     height: 35%; }
   .irAPagar {
     width: 30%;
-    font-size: 2vw; }
+    font-size: 3.5vw; }
   .total {
-    text-align: center; }
+    text-align: center;
+    width: fit-content; }
   .productosEnCarrito {
     margin: 1%; }
   .descripciones {
-    font-size: 1.5vw; }
+    font-size: 2.7vw; }
   .productos {
     font-size: small; }
   .precios {
@@ -571,7 +580,7 @@ h4 {
   h1 {
     font-size: large; } }
 
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 
@@ -607,7 +616,11 @@ h4 {
     color: white;
     font-family: "Kdam Thmor Pro", sans-serif; }
 
-.flexCenter, aside, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
+@media only screen and (max-width: 400px) {
+  .quienesSomos p {
+    font-size: small; } }
+
+.flexCenter, aside, .contenedorFotoInicio, .padreIrACarrito, .contenedorFoto, .formularioContacto, #consultaFoto, .padreCartaProductoPagina {
   display: flex;
   justify-content: center; }
 

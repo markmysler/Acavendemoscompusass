@@ -18,20 +18,24 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-
-
 }
 .fotoProductoInicio{
     height: 18vw;
-    border: $bordeNegro;
-    border-radius: $borderRadius;
     padding: 1%;
     background-color: white;
     box-shadow: 30px white;
 }
+.contenedorFotoInicio {
+    width: 100%;
+    background-color: white;
+    border: $bordeNegro;
+    border-radius: $borderRadius;
+    @extend .flexCenter;
+}
 
-.fotoProductoInicio:hover {
+.contenedorFotoInicio:hover {
     border: 2px solid yellow;
+    border-radius: $borderRadius;
 }
 
 .carousel{
@@ -58,7 +62,7 @@ width: 100%;
         width: 80%;
     }
     .fotoProductoInicio{
-        height: auto;
+        height: 40vw;
         margin: 1% 0% 1% 0%;
     }
 }

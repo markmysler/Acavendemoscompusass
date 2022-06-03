@@ -30,3 +30,11 @@
         font-family: "Kdam Thmor Pro", sans-serif;
     }
 }
+
+@media only screen and (max-width: 400px){
+    .quienesSomos {
+        p{
+            font-size: small;
+        }
+    }
+}
