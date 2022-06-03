@@ -1,4 +1,4 @@
-<img src="../multimedia/logoAVC.jpg">
+<img src="./multimedia/logoAVC.jpg">
 
 ***
 En Aca vendemos compus vendemos compus, se entiende? Somos un sitio web cuyo exclusivo proposito es intercambiar computadoras (en este momento solamente computadoras portatiles o laptops) por dinero.
@@ -34,4 +34,4 @@ Para explorar nuestra lista de productos dirijase a la pestaña de productos en 
 
 ## Vista Previa
 
-<img src="../multimedia/vistaPreviaInicio">
+<img src="./multimedia/vistaPreviaInicio">
