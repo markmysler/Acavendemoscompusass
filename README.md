@@ -34,4 +34,4 @@ Para explorar nuestra lista de productos dirijase a la pestaña de productos en 
 
 ## Vista Previa
 
-<img src="./multimedia/vistaPreviaInicio">
+<img src="./multimedia/vistaPreviaInicio.jpg">
